@@ -1,11 +1,26 @@
 # project-not-911
 Alternatives to calling 911 in NYC
 
-## Steps to run this project
-Assuming you have node installed on your machine:
+## Steps to run this project on your local environment
 
+### Prerequisites
+Make sure you have Node.js and NPM installed. You should be able to use these commands:
+```bash
+node -v
+npm -v
+```
+
+If not, following the instructions here:
+* Install Node [here](https://nodejs.org/en/)
+* Update NPM using the command below or follow the instructions [here](https://www.npmjs.com/get-npm):
+  ```bash
+  npm install npm@latest -g
+  ```
+
+### Installation
 - Clone the repository on your machine: `git clone git@github.com:emergentworks/project-not-911.git`
 - Navigate to your newly created project folder: `cd project-not-911`
+- Run `yarn install` to resolve the Expo SDK version
 - Install dependencies: `expo install`
 - Boot up the app: `npm start (or expo start)`
 
